@@ -1,4 +1,4 @@
-package Task.Management.DevTask;
+package Task.Management.Entity;
 
 
 import jakarta.persistence.*;
@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @Table(name = "task")
-public class EntityTask {
+public class TaskEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
